@@ -1,2 +1,0 @@
-gcc planetas.c -o planetas -lfreeglut -lopengl32 -lglu32
-gcc meuSistema.c -o s -lfreeglut -lopengl32 -lglu32

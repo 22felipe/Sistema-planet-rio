@@ -1,0 +1,7 @@
+Step 1
+gcc planetary_system.c -o p -lfreeglut -lopengl32 -lglu32
+
+Step 2
+.\p
+
+
