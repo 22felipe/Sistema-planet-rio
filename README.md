@@ -29,6 +29,16 @@ The goal is to create a **simplified solar system simulation**, showing the **tr
   - **Visão frontal / Frontal view** (ativa / active)
   - **Visão de cima / Top view** (comentada / commented)
 
+## 🎬 Demonstração dos Movimentos / Movements Demo
+
+### 🔄 Rotação sobre o próprio eixo / Rotation on its own axis
+- Pressione **D** / Press **D** para girar os planetas e luas ao redor de seus próprios eixos.  
+![Rotação dos corpos](assets/rotation.gif)
+
+### 🪐 Translação ao redor do Sol / Translation around the Sun
+- Pressione **Y** / Press **Y** para movimentar os planetas ao redor do Sol.  
+![Translação dos planetas](assets/translation.gif)
+
 ## 🛠 Tecnologias / Technologies
 
 - Linguagem / Language: **C**
