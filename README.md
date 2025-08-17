@@ -3,21 +3,26 @@
 Este projeto é uma **atividade prática** desenvolvida para a disciplina de **Computação Gráfica** do curso de **Ciência da Computação**.  
 This project is a **practical assignment** developed for the **Computer Graphics** course in the **Computer Science** program.
 
-O objetivo é criar uma **simulação simplificada do sistema solar**, mostrando a rotação de planetas e luas em torno de um sol utilizando a biblioteca **OpenGL** com **GLUT**.  
-The goal is to create a **simplified solar system simulation**, showing the rotation of planets and moons around the sun using **OpenGL** with **GLUT**.
+O objetivo é criar uma **simulação simplificada do sistema solar**, mostrando a **translação de dois planetas ao redor do Sol** e **duas luas orbitando um dos planetas**, usando a biblioteca **OpenGL** com **GLUT**.  
+The goal is to create a **simplified solar system simulation**, showing the **translation of two planets around the Sun** and **two moons orbiting one of the planets**, using **OpenGL** with **GLUT**.
 
 ## 🚀 Funcionalidades / Features
 
 - Desenho do **Sol**, **dois planetas** e **duas luas** utilizando `glutWireSphere`.  
   Draw the **Sun**, **two planets**, and **two moons** using `glutWireSphere`.
-- Implementação de **transformações geométricas**: rotação e translação para simular órbitas.  
-  Implementation of **geometric transformations**: rotation and translation to simulate orbits.
+- Um planeta gira em torno do Sol para a esquerda e o outro para a direita ao pressionar a tecla `Y`.  
+  One planet rotates around the Sun to the left and the other to the right when pressing the `Y` key.
+- Duas luas orbitam o planeta correspondente:
+  - Uma gira ao longo do eixo X.  
+    One moon rotates along the X axis.
+  - Outra gira ao longo do eixo XY.  
+    The other moon rotates along the XY axis.
 - Controle interativo via teclado:  
   Interactive keyboard controls:
   - `d` / `D`: girar os corpos celestes sobre o próprio eixo (dia)  
     Rotate celestial bodies on their own axis (day)
-  - `y` / `Y`: simular a rotação em torno do sol (ano)  
-    Simulate rotation around the sun (year)
+  - `y` / `Y`: simular a rotação em torno do Sol (ano)  
+    Simulate rotation around the Sun (year)
   - `q`: sair do programa / quit the program
 - Dois modos de visualização possíveis (comentado):  
   Two possible view modes (commented in code):
